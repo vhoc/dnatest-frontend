@@ -1,0 +1,13 @@
+.header-background {
+    background-image: url("./background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.statblocks-container {
+    flex-grow: 1;
+    margin: 1rem;
+}
