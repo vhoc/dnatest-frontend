@@ -1,4 +1,5 @@
 import './StatBlock.css'
+
 const StatBlock = ( { name, data } ) => {
 
     return(

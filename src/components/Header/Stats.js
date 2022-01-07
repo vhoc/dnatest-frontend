@@ -1,6 +1,6 @@
 import './Stats.css'
 
-const Stats = ( props ) => {
+const Stats = ( {children} ) => {
 
    return(
 
@@ -14,7 +14,7 @@ const Stats = ( props ) => {
                             <h1 className='text-white'>DNA Tests</h1>
                         </div>
 
-                        { props.children }
+                        { children }
 
                     </div>
 
